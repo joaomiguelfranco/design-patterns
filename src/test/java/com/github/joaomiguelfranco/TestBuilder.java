@@ -8,7 +8,7 @@ import static org.hamcrest.MatcherAssert.assertThat;
 
 public class TestBuilder {
 
-    private Builder builder = new Builder();
+    private final Builder builder = new Builder();
 
     @Test
     public void testCheckSum() {
