@@ -2,7 +2,7 @@ package com.github.joaomiguelfranco.gildedrose;
 
 public class Item {
 
-    public String name;
+    public final String name;
 
     public int sellIn;
 

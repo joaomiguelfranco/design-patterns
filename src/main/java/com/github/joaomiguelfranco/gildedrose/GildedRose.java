@@ -1,14 +1,13 @@
 package com.github.joaomiguelfranco.gildedrose;
 
 
-import com.github.joaomiguelfranco.gildedrose.rules.*;
-import lombok.val;
+import com.github.joaomiguelfranco.gildedrose.rules.RuleEngine;
 
 import java.util.Arrays;
 import java.util.List;
 
 public class GildedRose {
-    List<ItemProxy> items;
+    final List<ItemProxy> items;
 
     public GildedRose(Item[] items) {
         this.items = Arrays.stream(items)
@@ -17,7 +16,6 @@ public class GildedRose {
     }
 
     public void updateQuality() {
-        items.stream()
-                .forEach(RuleEngine::new);
+        items.forEach(RuleEngine::new);
     }
 }
