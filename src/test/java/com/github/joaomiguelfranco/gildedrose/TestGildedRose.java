@@ -354,5 +354,4 @@ public class TestGildedRose {
         assertEquals(51, app.items.get(0).getQuality());
     }
 
-
 }

@@ -9,9 +9,18 @@ Solutions to commonly occurring problems in a given context.
 * Improve communication inside the team
 * Deliver better software
 
+## Creational Patterns
+### [Builder](https://refactoring.guru/design-patterns/builder)
+Builder is a creational design pattern that lets you construct complex objects step by step. The pattern allows you to produce different types and representations of an object using the same construction code.
+
+The Builder pattern suggests that you extract the object construction code out of its own class and move it to separate objects called builders.
+
+
+
+
 ## Structural Patterns
 
-### Proxy
+### [Proxy](https://refactoring.guru/design-patterns/proxy)
 
 Proxy provides a substitute or placeholder for another object. A proxy controls access to the original object, allowing you to perform something either before or after the request gets through to the original object.
 
